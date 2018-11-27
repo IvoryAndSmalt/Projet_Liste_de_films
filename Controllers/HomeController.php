@@ -1,22 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-include('Models/Film.php');
-
-//Récupérer les données
-$movies = getAllMovies();
-
-
-//traiter les données
-foreach ($movies as $key => $movie) {
-    $movie['realisateur'] = ucfirst($movie['realisateur']); //Met la 1ere lettre du réalisateur en majuscule
-    
-}
-
-
-//Afficher les donnees
-include('Views/HomeView.php');
-=======
 //le controlleur inclut le modèle
 include('Models/Film.php');
 
@@ -32,5 +15,3 @@ foreach ($movies as $key => $movie) {
 
 //inclure la vue
 include('Views/HomeView.php');
-
->>>>>>> origin/master

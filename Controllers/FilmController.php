@@ -1,14 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-include('Models/Film.php');
-include('Models/Genre.php');
-
-include('Views/FilmView.php');
-
-//Récupérer les données
-
-=======
 //le controlleur inclut le ou les modèles
 include('Models/Film.php');
 include('Models/Genre.php');
@@ -26,4 +17,3 @@ $movie['realisateur'] = ucfirst($movie['realisateur']); //Mets une majuscule au 
 include('Views/FilmView.php');
 
 ?>
->>>>>>> origin/master
